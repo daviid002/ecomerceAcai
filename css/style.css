@@ -1,0 +1,162 @@
+#menuTopo
+{
+	background-color: #343a40!important;
+    height: 100px;
+
+}
+.body
+{
+	background-color: purple;
+	font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+#rodaPe
+{
+	background-color: #343a40!important;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	color: white;
+
+}
+.fundo
+{
+
+	height: 568px;
+    width: 85%;
+    background-color: #f8f9fa69;
+    margin: auto;
+    margin-top: 0%;
+}
+.fundo.areaUser{
+	background-color: #ffff !important;
+}
+.fotoProduto
+{
+	width: 65% 	!important;
+    height: 58% !important;
+    margin:auto !important;
+}
+
+.ftCupuacu
+{
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 165%;
+	height: 74%;
+}
+.ftCupuacu.acai{
+
+	background-size: 149%!important;
+    height: 45%!important;
+}
+.card.tipoProduto
+{
+	top: 1.5%;
+	
+}
+.card.tipoProduto.um
+{
+	left: 1%;
+}
+.card.tipoProduto.tres
+{
+	right: 1%;
+}
+.sobrePosicao
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	background-color: #7bde2bb0;
+	overflow: hidden;
+	transition: 0.4s ease;
+	cursor: pointer;
+}
+.card.tipoProduto:hover .sobrePosicao
+{
+
+	opacity: 1;
+}
+.textComprar
+{
+	position: absolute;
+	top: 30%;
+	font-size:30px;
+	color: #fff;
+	width: 100%;
+	text-align: center;;
+
+}
+.formularios
+{
+	text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+.nav-pills.nav-link.active.areaUsr{
+
+	background-color: #afc1d4b0 !important;
+	color: #2d7b3f !important;
+
+}
+.menuUser{
+	    background-color: #e9ecef;
+    	height: 568px !important;
+    	margin-left: 1.3%;
+
+
+}
+.menuUsuario{
+    width: 100%;
+    text-align: center;
+    border-bottom: solid 0.1px;
+    height: 40px;
+    font-size: 20px;
+    color: saddlebrown;
+    cursor: pointer;
+}
+.menuUsuario:hover .sebreporLi{
+	opacity: 1;
+}
+.sebreporLi{
+	background-color: #353b40;
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.5s ease;
+    cursor: pointer;
+    color: white;
+    height: 43px;
+    border: solid 0.1px #353b40;
+    margin-top: -1%;
+    box-shadow: 10px 5px 5px black;
+}
+#rodapeSenha{
+	font-size: 12px;
+	color: red;
+	font-weight: bold;
+}
+.montarPedido{
+	background-color: #fbfb43b3;
+	text-align: center;
+}
+.IngredienteScroll{
+	max-height: 429px;
+    overflow: auto;
+}
+#valorTotal{
+	    border: none;
+    background-color: #fcfc7b;
+}
+
+
